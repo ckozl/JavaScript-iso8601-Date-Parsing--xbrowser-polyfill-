@@ -2,9 +2,18 @@ date_iso8601_polyfill.js
 
 polyfilling w3c's subset of iso8601 dates to work on all browsers - ck 2/7/2012
 testing ground: http://jsbin.com/akagim/10
-  ref:
+
+ref:
 http://dev.w3.org/html5/spec/common-microsyntaxes.html
+http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.15
+
 http://msdn.microsoft.com/en-us/library/windows/apps/ff743760(v=vs.94).aspx
 http://msdn.microsoft.com/en-us/library/windows/apps/wz6stk2z(v=vs.94).aspx
 http://msdn.microsoft.com/en-us/library/windows/apps/k4w173wk(v=vs.94).aspx
+
+--- Microsoft Connect requires login to view:
+
+IE9 had an issue where it didn't accept milliseconds correctly: (fixed in IE10)
 https://connect.microsoft.com/IE/feedback/details/723740/date-parse-and-new-date-fail-on-valid-formats
+still an issue in IE10:
+https://connect.microsoft.com/IE/feedback/details/776783/date-parse-and-new-date-fail-on-valid-formats
