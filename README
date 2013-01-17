@@ -17,3 +17,7 @@ IE9 had an issue where it didn't accept milliseconds correctly: (fixed in IE10)
 https://connect.microsoft.com/IE/feedback/details/723740/date-parse-and-new-date-fail-on-valid-formats
 still an issue in IE10:
 https://connect.microsoft.com/IE/feedback/details/776783/date-parse-and-new-date-fail-on-valid-formats
+
+--- Test a browser to see if the shim will be used:
+
+http://jsbin.com/efivib/1/edit
