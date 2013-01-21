@@ -21,3 +21,30 @@ https://connect.microsoft.com/IE/feedback/details/776783/date-parse-and-new-date
 --- Test a browser to see if the shim will be used:
 
 http://jsbin.com/efivib/1/edit
+
+
+--- Standards aren't standard until they're standard... OH SNAP!
+
+it would seem that the ECMA folks seemed to have changed their mind on what the spec should say for ECMAScript-262 v6.0
+
+this is very ironic because I seemed to have banged heads with someone on github about this exact detail.  It breaks 
+down like this:  
+
+iso8601 says: "Times without a timezone specification, be it a 'Z' or and actual offset, are assumed 
+to be in local time.  This can be ambiguous and result in unwanted behavior unless you know that both 
+the communicator and reciever are guranteed to be in the same timezone, as such a timezone should 
+always be specified, even though it is optional."... or something like that, lol.
+
+ECMAScript-262 v5.1 says: "The value of an absent time zone offset is “Z”."
+
+ECMAScript-262 v6 says: "If the time zone offset is absent, the date-time is interpreted as a local time."
+
+crap... well ES6 is so new it's still in "early draft" status and right now the browsers breakdown like this:
+
+ES5.1 compliant date parsing: chrome, mobile safari, opera
+ES6.0 compliant date parsing: IE10, firefox, desktop safari
+
+Anyway I'm putting up a second vresion of this file that is compliant with ES6 spec, you can decide for
+yourself which you would rather use...
+
+... like i said, crap
