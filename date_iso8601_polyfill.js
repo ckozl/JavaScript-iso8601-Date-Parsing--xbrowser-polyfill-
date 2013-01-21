@@ -1,10 +1,10 @@
-
 /*\
 |*|	
 |*|	polyfilling w3c's subset of iso8601 dates - ck 2/7/2012
 |*|	testing ground: http://jsbin.com/akagim/10
 |*|		ref:
 |*|			http://dev.w3.org/html5/spec/common-microsyntaxes.html
+|*|			http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.15
 |*|			http://msdn.microsoft.com/en-us/library/windows/apps/ff743760(v=vs.94).aspx
 |*|			http://msdn.microsoft.com/en-us/library/windows/apps/wz6stk2z(v=vs.94).aspx
 |*|			http://msdn.microsoft.com/en-us/library/windows/apps/k4w173wk(v=vs.94).aspx
