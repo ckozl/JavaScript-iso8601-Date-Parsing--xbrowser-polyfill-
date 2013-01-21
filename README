@@ -44,7 +44,10 @@ crap... well ES6 is so new it's still in "early draft" status and right now the 
 ES5.1 compliant date parsing: chrome, mobile safari, opera
 ES6.0 compliant date parsing: IE10, firefox, desktop safari
 
+
+... like i said, crap.
+
+
 Anyway I'm putting up a second vresion of this file that is compliant with ES6 spec, you can decide for
 yourself which you would rather use...
 
-... like i said, crap
